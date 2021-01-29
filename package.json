@@ -1,11 +1,12 @@
 {
-  "name": "discord.js-classbased",
+  "name": "Tamsoo52-Player",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/TotalTemplates/discord.js-classbased.git",
+  "repository": "https://github.com/Sechihyeo/Tamsoo52-Player.git",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^12.2.0"
+    "discord.js": "^12.2.0",
+    "ytpl": "^2.0.4"
   },
   "devDependencies": {
     "eslint": "^7.3.1",
@@ -14,5 +15,6 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1"
-  }
+  },
+  "author": "noeulnight <noeulnight.mail@gmail.com>"
 }

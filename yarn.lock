@@ -799,6 +799,11 @@ mime-types@^2.1.12:
   dependencies:
     mime-db "1.44.0"
 
+miniget@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/miniget/-/miniget-4.1.0.tgz#018cc1180d2fe4d45ed735ac6bd2ab7224e8bceb"
+  integrity sha512-kzhrNv5L7LlomwGmPGQsLQ2PnT1LeJJWfB0wNFGyv426gEM1gsfziBQmfkr6XOBA8EusZg9nowlNT5CbuKTjZg==
+
 minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
@@ -1255,3 +1260,10 @@ ws@^7.2.1:
   version "7.3.0"
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.3.0.tgz#4b2f7f219b3d3737bc1a2fbf145d825b94d38ffd"
   integrity sha512-iFtXzngZVXPGgpTlP1rBqsUK82p9tKqsWRPg5L56egiljujJT3vGAYnHANvFxBieXrTFavhzhxW52jnaWV+w2w==
+
+ytpl@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/ytpl/-/ytpl-2.0.4.tgz#24188190f627d328146542b6cf093c770ae947b7"
+  integrity sha512-lXm3LvFvs2RixD6PTDay5jXRhaMSo/Upw7P60/FgQFvNrgSYRwMpR3nB1v3scu84R2XcS6kuENhPD2M4x/920A==
+  dependencies:
+    miniget "^4.1.0"
