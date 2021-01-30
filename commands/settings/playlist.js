@@ -3,10 +3,6 @@ const ytpl = require('ytpl')
 const fs = require('fs')
 const { MessageEmbed } = require('discord.js')
 
-/**
- * @param {import('discord.js').MessageEmbed} MessageEmbed
- */
-
 async function fn (client, msg) {
   const arg = msg.content.split(' ')
   if (arg.length < 2) return msg.channel.send('Wrong Used Command.')
